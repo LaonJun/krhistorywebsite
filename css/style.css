@@ -1,6 +1,49 @@
-@charset "utf-8";
+.navigation{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: royalblue;
+}
 
-.nav{
-    color: aqua;
+.logo{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-left: -100px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 22px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.logo-pic{
+    width: 50px;
+    
+}
+
+p{
+    font-size: 35px;
     text-align: center;
+    font-weight: 550;
 }
